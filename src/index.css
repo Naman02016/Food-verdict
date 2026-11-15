@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+:root {
+  font-family: Inter, system-ui, sans-serif;
+
+  --color-ivory: #F4F1EA;
+  --color-beige: #E8E2D8;
+  --color-white: #FFFEFA;
+  --color-olive: #495747;
+  --color-sage: #A8B5A0;
+  --color-orange: #C97849;
+  --color-charcoal: #292B27;
+  --color-grey: #77766F;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: var(--color-ivory);
+  color: var(--color-charcoal);
+}
